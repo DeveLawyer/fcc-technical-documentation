@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Technical Documentation</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav id="navbar">
+        <header>
+            <h1>HTML5 Semantic Elements</h1>
+        </header>
+        <ul>
+            <li><a href="#introduction" class="nav-link">Introduction</a></li>
+            <li><a href="#article" class="nav-link">&lt;article&gt;</a></li>
+            <li><a href="#aside" class="nav-link">&lt;aside&gt;</a></li>
+            <li><a href="#footer" class="nav-link">&lt;footer&gt;</a></li>
+            <li><a href="#header" class="nav-link">&lt;header&gt;</a></li>
+            <li><a href="#main" class="nav-link">&lt;main&gt;</a></li>
+            <li><a href="#nav" class="nav-link">&lt;nav&gt;</a></li>
+            <li><a href="#section" class="nav-link">&lt;section&gt;</a></li>
+        </ul>
+      </nav>
+      <main id="main-doc">
+        <section id="introduction" class="main-section">
+          <header>
+            <h1>Introduction</h1>
+          </header>
+          <ul>
+            <li>HTML was originally created as a markup language to describe documents on the early internet. As the internet grew and was adopted by more people, it’s needs changed. Where the internet was originally inteded for sharing scientific documents, now people wanted to share other things as well. Very quickly, people started wanting to make the web look nicer. Because the web was not initially built to be designed, programmers used different hacks to get things laid out in different ways.</li>
+            <li>First, it is much easier to read. This is probably the first thing you will notice when looking at the first block of code using semantic elements. This is a small example, but as a programmer you can be reading through hundreds or thousands of lines of code. The easier it is to read and understand that code, the easier it makes your job.</li>
+            <li>It has greater accessibility. You are not the only one that finds semantic elements easier to understand. Search engines and assistive technologies (like screen readers for users with a sight impairment) are also able to better understand the context and content of your website, meaning a better experience for your users.</li>
+            <li>Overall, semantic elements also lead to more consistent code. When creating a header using non-semantic elements, different programmers might write this as &lt;div class="header"&gt;, &lt;div id="header"&gt;, &lt;div class="head"&gt;, or simply &lt;div&gt;. There are so many ways that you can create a header element, and they all depend on the personal preference of the programmer. By creating a standard semantic element, it makes it easier for everyone.</li>
+            <li>Since October 2014, HTML4 got upgraded to HTML5, along with some new “semantic” elements. To this day, some of us might still be confused as to why so many different elements that doesn’t seem to show any major changes.</li>
+          </ul>
+        </section>
+        <section id="article" class="main-section">
+          <header>
+            <h1>&lt;article&gt;</h1>
+          </header>
+          <p>
+            The <code>article</code> represents a self-contained composition in a
+            document, page, application, or site, which is intended to be
+            independently distributable or reusable (e.g., in syndication).
+            Examples include: a forum post, a magazine or newspaper article, or
+            a blog entry.
+          </p>
+        </section>
+        <section id="aside" class="main-section">
+          <header>
+            <h1>&lt;aside&gt;</h1>
+          </header>
+          <p>
+            The <code>aside</code> represents a portion of a document whose content
+            is only indirectly related to the document's main content. Asides
+            are frequently presented as sidebars or call-out boxes.
+          </p>
+        </section>
+        <section id="footer" class="main-section">
+          <header>
+            <h1>&lt;footer&gt;</h1>
+          </header>
+          <p>
+            The <code>footer</code> represents a footer for its nearest sectioning
+            content or sectioning root element. A footer typically contains
+            information about the author of the section, copyright data or links
+            to related documents.
+          </p>
+        </section>
+        <section id="header" class="main-section">
+          <header>
+            <h1>&lt;header&gt;</h1>
+          </header>
+          <p>
+            The <code>header</code> represents introductory content, typically a
+            group of introductory or navigational aids. It may contain some
+            heading elements but also other elements like a logo, a search form,
+            an author name, and so on.
+          </p>
+        </section>
+        <section id="main" class="main-section">
+          <header>
+            <h1>&lt;main&gt;</h1>
+          </header>
+          <p>The <code>main</code> represents the dominant content of the <body> of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.</p>
+        </section>
+        <section id="nav" class="main-section">
+          <header>
+            <h1>&lt;nav&gt;</h1>
+          </header>
+          <p>The <code>nav</code> represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.</p>
+        </section>
+        <section id="section" class="main-section">
+          <header>
+            <h1>&lt;section&gt;</h1>
+          </header>
+          <p>The <code>section</code> represents a standalone section — which doesn't have a more specific semantic element to represent it — contained within an HTML document. Typically, but not always, sections have a heading.</p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
